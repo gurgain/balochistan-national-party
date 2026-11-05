@@ -3,53 +3,256 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baluchistan National Party</title>
+    <title>Balochistan National Party</title>
+    <meta name="description" content="Balochistan National Party (BNP) — working for the rights, dignity and development of the people of Balochistan.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Baluchistan National Party</h1>
-        <p>Committed to the Progress and Prosperity of Baluchistan</p>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#top" class="brand">
+                <span class="brand-mark" aria-hidden="true">BNP</span>
+                <span class="brand-name">Balochistan National Party</span>
+            </a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+                <span></span><span></span><span></span>
+            </button>
+            <nav id="site-nav" class="site-nav">
+                <a href="#about">About</a>
+                <a href="#vision">Vision</a>
+                <a href="#priorities">Priorities</a>
+                <a href="#history">History</a>
+                <a href="#contact">Contact</a>
+                <a href="#join" class="btn btn-small">Join Us</a>
+            </nav>
+        </div>
     </header>
 
-    <nav>
-        <a href="#about">About Us</a>
-        <a href="#vision">Our Vision</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-    <main>
-        <section id="about">
-            <h2>About Us</h2>
-            <p>The Baluchistan National Party is dedicated to representing the people of Baluchistan, advocating for their rights, and fostering sustainable development in the region.</p>
+    <main id="top">
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-pattern" aria-hidden="true"></div>
+            <div class="container hero-inner">
+                <p class="eyebrow">Since 1996 · Quetta, Balochistan</p>
+                <h1>A voice for the people of Balochistan</h1>
+                <p class="lead">Standing for rights, dignity and a fair share of the land's resources — so every family in Balochistan can build a future with hope.</p>
+                <div class="hero-actions">
+                    <a href="#join" class="btn">Become a Member</a>
+                    <a href="#vision" class="btn btn-ghost">Our Vision</a>
+                </div>
+            </div>
         </section>
 
-        <section id="vision">
-            <h2>Our Vision</h2>
-            <p>We envision a prosperous Baluchistan where all citizens have access to quality education, healthcare, and economic opportunities while preserving our rich cultural heritage.</p>
+        <!-- About -->
+        <section id="about" class="section">
+            <div class="container split">
+                <div>
+                    <p class="eyebrow">About Us</p>
+                    <h2>Rooted in the people, guided by principle</h2>
+                </div>
+                <div class="prose">
+                    <p>The Balochistan National Party (BNP) is a democratic political party founded in 1996 by Sardar Ataullah Mengal. Headquartered in Quetta, the party works to represent the people of Balochistan in provincial and national politics.</p>
+                    <p>We believe in constitutional rights, provincial autonomy, and the right of the people of Balochistan to decide how their land and resources are used. Our work is grounded in the rich language, culture and traditions of the region.</p>
+                </div>
+            </div>
         </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li>Education initiatives for rural areas</li>
-                <li>Healthcare facilities development</li>
-                <li>Infrastructure improvement projects</li>
-                <li>Programs to promote local arts and culture</li>
-            </ul>
+        <!-- Vision / values -->
+        <section id="vision" class="section section-tint">
+            <div class="container">
+                <div class="section-head">
+                    <p class="eyebrow">Our Vision</p>
+                    <h2>What we stand for</h2>
+                </div>
+                <div class="cards">
+                    <article class="card">
+                        <div class="card-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 4.5 3.4 8.4 8 9 4.6-.6 8-4.5 8-9V6l-8-3Z"/></svg>
+                        </div>
+                        <h3>Rights &amp; Dignity</h3>
+                        <p>Protection of fundamental human rights and the rule of law for every citizen of Balochistan.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6"/></svg>
+                        </div>
+                        <h3>Provincial Autonomy</h3>
+                        <p>Real self-governance, with decisions about Balochistan made by the people of Balochistan.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24"><path d="M12 2v20M5 9l7-7 7 7M4 15h16"/></svg>
+                        </div>
+                        <h3>Ownership of Resources</h3>
+                        <p>Fair control over and benefit from the province's natural wealth, coastline and minerals.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24"><path d="M4 19V5a2 2 0 0 1 2-2h12v18H6a2 2 0 0 1-2-2Zm0 0a2 2 0 0 1 2-2h12"/></svg>
+                        </div>
+                        <h3>Language &amp; Culture</h3>
+                        <p>Preserving and promoting the Balochi and Brahui languages, heritage and traditions.</p>
+                    </article>
+                </div>
+            </div>
         </section>
 
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Email: info@baluchistannationalparty.org</p>
-            <p>Phone: +92-123-456-7890</p>
-            <p>Address: Quetta, Baluchistan, Pakistan</p>
+        <!-- Priorities -->
+        <section id="priorities" class="section">
+            <div class="container">
+                <div class="section-head">
+                    <p class="eyebrow">Priorities</p>
+                    <h2>Building a better Balochistan</h2>
+                </div>
+                <ul class="priorities">
+                    <li>
+                        <span class="num">01</span>
+                        <div>
+                            <h3>Education for every child</h3>
+                            <p>Schools, teachers and scholarships for rural and remote districts.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="num">02</span>
+                        <div>
+                            <h3>Healthcare close to home</h3>
+                            <p>Functioning hospitals and basic health units across the province.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="num">03</span>
+                        <div>
+                            <h3>Water &amp; infrastructure</h3>
+                            <p>Clean drinking water, roads and electricity for underserved communities.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="num">04</span>
+                        <div>
+                            <h3>Jobs for local youth</h3>
+                            <p>Local employment in development projects and support for small enterprise.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="num">05</span>
+                        <div>
+                            <h3>Arts &amp; culture</h3>
+                            <p>Programs that celebrate and support local artists, poets and musicians.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="num">06</span>
+                        <div>
+                            <h3>Justice for missing persons</h3>
+                            <p>Accountability and answers for families waiting for their loved ones.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- History -->
+        <section id="history" class="section section-dark">
+            <div class="container">
+                <div class="section-head">
+                    <p class="eyebrow">Our Journey</p>
+                    <h2>Milestones</h2>
+                </div>
+                <ol class="timeline">
+                    <li>
+                        <span class="year">1996</span>
+                        <p>The Balochistan National Party is founded under the leadership of Sardar Ataullah Mengal.</p>
+                    </li>
+                    <li>
+                        <span class="year">1997</span>
+                        <p>Sardar Akhtar Mengal becomes Chief Minister of Balochistan.</p>
+                    </li>
+                    <li>
+                        <span class="year">2012</span>
+                        <p>The party presents its Six Points for the rights of Balochistan before the Supreme Court.</p>
+                    </li>
+                    <li>
+                        <span class="year">Today</span>
+                        <p>Led by Sardar Akhtar Mengal, the party continues its democratic struggle for the province.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Join -->
+        <section id="join" class="section">
+            <div class="container join">
+                <div>
+                    <p class="eyebrow">Get Involved</p>
+                    <h2>Join the movement</h2>
+                    <p>Add your voice. Leave your details and a local party office will get in touch.</p>
+                </div>
+                <form class="join-form" onsubmit="event.preventDefault(); this.querySelector('.form-note').hidden = false; this.reset();">
+                    <label>
+                        Full name
+                        <input type="text" name="name" required autocomplete="name">
+                    </label>
+                    <label>
+                        District
+                        <input type="text" name="district" required>
+                    </label>
+                    <label>
+                        Phone
+                        <input type="tel" name="phone" autocomplete="tel">
+                    </label>
+                    <button type="submit" class="btn">Send</button>
+                    <p class="form-note" hidden>Thank you! We will be in touch soon.</p>
+                </form>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section section-tint">
+            <div class="container">
+                <div class="section-head">
+                    <p class="eyebrow">Contact</p>
+                    <h2>Reach us</h2>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <a href="mailto:info@baluchistannationalparty.org">info@baluchistannationalparty.org</a>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Phone</h3>
+                        <a href="tel:+921234567890">+92-123-456-7890</a>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Central Office</h3>
+                        <p>Quetta, Balochistan, Pakistan</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2025 Baluchistan National Party. All rights reserved.</p>
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p><strong>Balochistan National Party</strong></p>
+            <p>&copy; <span id="year">2026</span> Balochistan National Party. All rights reserved.</p>
+        </div>
     </footer>
+
+    <script>
+        const toggle = document.querySelector('.nav-toggle');
+        const nav = document.getElementById('site-nav');
+        toggle.addEventListener('click', () => {
+            const open = nav.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', open);
+        });
+        nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+            nav.classList.remove('open');
+            toggle.setAttribute('aria-expanded', 'false');
+        }));
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
